@@ -1,0 +1,65 @@
+footer {
+  align-items: center;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway';
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer-contact ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-contact ul a:hover {
+  text-decoration: underline;
+}
+
+footer li, footer a {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.social-media-icon {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.social-media-link:hover {
+  position: relative;
+  bottom: 1px;
+}
+
+.divider {
+  background-color: rgba(184, 178, 179, 0.9);
+  height: 2px;
+  margin: 15px auto;
+  width: 80px;
+}
+
+.to-top-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.to-top-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.to-top-btn img {
+  width: 30px;
+}
+
+.privacy-policy:hover {
+  text-decoration: underline;
+}
+
+.footer-copy, .privacy-policy {
+  font-size: 1.0rem;
+  font-weight: 100;
+}

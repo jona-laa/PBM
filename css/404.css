@@ -1,0 +1,14 @@
+.four-oh-four .wp-block-cover {
+  margin: 30px auto !important;
+  text-align: center;
+}
+
+.error-message {
+  background-image: url('../images/empty-philipp-berndt.jpg');
+}
+
+.error-message p {
+  color: #f7f7f7;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,13 @@
+.news {
+    width: 100%;
+}
+
+.news-article {
+    margin: auto;
+    max-width: 500px;
+    padding: 0 20px;
+}
+
+.news-article p {
+    font-size: 1.6rem;
+}
