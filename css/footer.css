@@ -18,7 +18,8 @@ footer {
   text-decoration: underline;
 }
 
-footer li, footer a {
+footer li,
+footer a {
   display: inline;
   font-size: 1.2rem;
 }
@@ -40,26 +41,43 @@ footer li, footer a {
   width: 80px;
 }
 
-.to-top-btn {
-  background-color: transparent;
-  border: none;
-  font-size: 1.3rem;
+.btn:hover {
+  opacity: 0.9;
 }
 
-.to-top-btn:hover {
+.btn-top {
+  background: #393939;
+  border-radius: 50%;
   cursor: pointer;
-  text-decoration: underline;
+  border: 0.5px solid #84888b;
+  height: 45px;
+  padding: 0 1.2em;
+  position: fixed;
+  right: 10px;
+  transition: 0.5s ease-in;
+  width: 45px;
 }
 
-.to-top-btn img {
-  width: 30px;
+.arrow {
+  height: 18px;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+  width: 18px;
+}
+
+.btn-top:hover polyline {
+  stroke-width: 15;
 }
 
 .privacy-policy:hover {
   text-decoration: underline;
 }
 
-.footer-copy, .privacy-policy {
-  font-size: 1.0rem;
+.footer-copy,
+.privacy-policy {
+  font-size: 1rem;
   font-weight: 100;
 }

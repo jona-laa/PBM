@@ -23,6 +23,6 @@
     <div class="section-divider"></div>
     <?php get_contact_form() ?>
     <div class="section-divider"></div>
-    <?php echo wdi_feed(array('id'=>'2')); ?>
+    <?php echo wdi_feed(array('id'=>'3')); ?>
 </div>
 <?php get_footer() ?>

@@ -10,7 +10,7 @@
         while ($arr_posts->have_posts()) :
             $arr_posts->the_post(); ?>
             <section class="news">
-                <h2 class="section-header">News</h2>
+                <a href="news"><h2 class="section-header">News</h2></a>
                 <article class="news-article">
                     <a href="<?php the_permalink(); ?>" class="article-heading"><?php the_title('<h2 class="article-heading">', '</h2>'); ?></a>
                     <?php

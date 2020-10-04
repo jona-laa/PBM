@@ -14,7 +14,7 @@
 
 <body>
     <header>
-    <div class="header-container">
+    <div class="header-container" id="navbar">
         <nav class="main-menu">
             <a href="" onClick=event.preventDefault() id="main-menu-toggle">
                 <svg viewBox="0 0 100 80" width="40" height="40">
