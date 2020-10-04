@@ -15,7 +15,7 @@ header {
 .header-container {
   display: flex;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1400px;
   width: 100%;
 }
 
