@@ -1,11 +1,13 @@
 footer {
   align-items: center;
   background-color: #efefef;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   font-family: 'Raleway';
   justify-content: center;
   padding: 20px;
+  width: 100%;
 }
 
 .footer-contact ul {

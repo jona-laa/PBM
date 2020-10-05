@@ -26,13 +26,14 @@ let prevScrollpos = window.pageYOffset;
 
 const hasScrolled = () => {
   let currentScrollPos = window.pageYOffset;
-
-  if (prevScrollpos > currentScrollPos) {
-    elementToggle(navbar, 'top', '0');
-    elementDisplay(mainMenu, 'none');
-  } else {
-    elementToggle(navbar, 'top', '-125px');
-    elementDisplay(mainMenu, 'none');
+  if (screen.width < 813 && window.pageYOffset > 100) {
+    if (prevScrollpos > currentScrollPos) {
+      elementToggle(navbar, 'top', '0');
+      elementDisplay(mainMenu, 'none');
+    } else {
+      elementToggle(navbar, 'top', '-125px');
+      elementDisplay(mainMenu, 'none');
+    }
   }
 
   prevScrollpos = currentScrollPos;

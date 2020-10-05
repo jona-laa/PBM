@@ -2,7 +2,7 @@
 <?php the_post() ?>
 <div class="container">
   <section class="news">
-    <article class="news-article">
+    <article class="news-article single">
       <h1 class="section-header"><?php the_title();?></h1>
         <figure>
             <?php
