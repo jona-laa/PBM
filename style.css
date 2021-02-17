@@ -1,0 +1,27 @@
+/*
+Theme Name: PBM
+Theme URI: 
+Author: Jonathan Laasonen
+Author URI: www.github.com/jona-laa
+Description: Theme for Paintings by Mela
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Paintings by Mela, Art
+Text Domain: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('./css/global.css');
+@import url('./css/header.css');
+@import url('./css/footer.css');
+@import url('./css/contact-form.css');
+@import url('./css/front-page.css');
+@import url('./css/news.css');
+@import url('./css/page-art.css');
+@import url('./css/product-cat.css');
+@import url('./css/single-product.css');
+@import url('./css/page-about.css');
+@import url('./css/page-contact.css');
+@import url('./css/page.css');
+@import url('./css/404.css');

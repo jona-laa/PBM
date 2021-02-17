@@ -1,0 +1,269 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #696969;
+  font-family: 'Lora', serif;
+  line-height: 2;
+  word-wrap: break-word;
+}
+
+main {
+  min-height: calc(100vh - 250px);
+}
+
+a {
+  color: #393939;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #696969;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 0;
+}
+
+h1,
+.h1, .section-header a {
+  font-size: 28px;
+  margin: 30px 0 0;
+}
+
+h2,
+.h2 {
+  font-size: 26px;
+  margin: 30px 0 0;
+}
+
+h3,
+.h3 {
+  font-size: 20px;
+  margin: 30px 0 0;
+}
+
+h4,
+.h4 {
+  font-size: 16px;
+}
+
+h5,
+.h5 {
+  font-size: 14px;
+}
+
+h6,
+.h6 {
+  font-size: 13px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  margin: 70px auto;
+  max-width: 1090px;
+  width: 100%;
+}
+
+.section-header {
+  padding: 50px 0 0;
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.section-divider {
+  background-color: rgba(105, 105, 105, 0.25);
+  height: 2px;
+  margin: 50px auto;
+  width: 20%;
+}
+
+.wp-block-cover {
+  box-shadow: 1px 1px 3px #272727;
+  height: auto;
+  margin: 15px !important;
+  min-height: 300px !important;
+  max-width: 300px;
+  max-height: 300px !important;
+}
+
+.wp-block-cover:hover {
+  box-shadow: 1px 1px 5px #272727;
+}
+
+.wp-block-cover img {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.wp-block-cover a,
+.wp-block-cover p {
+  color: white;
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin: 0;
+  width: 100%;
+}
+
+.wp-block-cover a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* iPhone X landscape */
+@media screen and (max-width: 812px) {
+  .section-header {
+    padding: 20px 0;
+  }
+}
+
+/* iPhone 6/7/8 landscape */
+@media screen and (max-width: 667px) {
+  .wp-block-cover {
+    box-sizing: border-box;
+    margin: 5px;
+    max-height: 260px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1,
+  .h1 {
+    /* font-size: 24px; */
+    margin: 30px 0 0;
+  }
+
+  h2,
+  .h2 {
+    /* font-size: 20px; */
+    margin: 30px 0 0;
+  }
+}

@@ -1,0 +1,154 @@
+.art-category {
+  margin: -30px 0 20px;
+}
+
+.art-category-sort {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.woocommerce-notices-wrapper {
+  display: none;
+}
+
+.woocommerce-result-count {
+  font-size: 1.3rem;
+}
+
+.woocommerce-ordering {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  max-width: 100px;
+  margin: 0;
+  box-shadow: none;
+}
+
+.orderby {
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+}
+
+.orderby:hover {
+  cursor: pointer;
+}
+
+.term-description {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.term-description p {
+  font-size: 1.6rem;
+  margin: auto;
+  max-width: 550px;
+}
+
+.art-category-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+}
+
+.art-preview {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  overflow: hidden;
+  width: 230px;
+}
+
+.art-preview .attachment-woocommerce_thumbnail {
+  /* height: auto !important; */
+  /* width: 300px; */
+}
+
+.art-preview .attachment-woocommerce_thumbnail:hover {
+  box-shadow: 1px 1px 3px #272727;
+}
+
+.art-preview-info {
+  display: flex;
+  font-family: 'Raleway';
+  justify-content: space-between;
+  line-height: 1.4rem;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.art-preview-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.art-preview-name:hover {
+  color: #696969;
+  text-decoration: underline;
+}
+
+.art-preview-info span {
+  font-size: 1.6rem;
+}
+
+.art-preview-info .woocommerce-Price-amount,
+.art-preview-info .woocommerce-Price-currencySymbol {
+  font-weight: 400;
+}
+
+.price,
+.woocommerce-product-details__short-description p {
+  margin: 0;
+}
+
+.woocommerce-product-details__short-description p, .woocommerce-product-details__short-description span {
+  color: #696969 !important;
+  font-family: 'Raleway' !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
+.art-preview-info .art-preview-dimensions {
+  font-size: 1.2rem;
+}
+
+.woocommerce-pagination ul {
+  text-align: center;
+}
+
+.woocommerce-pagination ul li {
+  background-color: rgb(239, 239, 239);
+  display: inline-block;
+  margin: 0 0.25px;
+  padding: 0 10px;
+}
+
+.woocommerce-pagination ul li:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.woocommerce-pagination a,
+.woocommerce-pagination span {
+  font-size: 1.6rem;
+}
+
+.woocommerce-pagination .current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1094px) {
+  .art-category-content {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .art-category-sort {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,87 @@
+footer {
+  align-items: center;
+  background-color: #efefef;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway';
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-contact ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-contact ul a:hover {
+  text-decoration: underline;
+}
+
+footer li,
+footer a {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.social-media-icon {
+  width: 35px;
+  margin: 0 5px;
+}
+
+.social-media-link:hover {
+  position: relative;
+  bottom: 1px;
+  opacity: 0.75;
+}
+
+.divider {
+  background-color: rgba(184, 178, 179, 0.9);
+  height: 2px;
+  margin: 15px auto;
+  width: 80px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-top {
+  background: #393939;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0.5px solid #84888b;
+  height: 45px;
+  padding: 0 1.2em;
+  position: fixed;
+  right: 10px;
+  transition: 0.5s ease-in;
+  width: 45px;
+  z-index: 100;
+}
+
+.arrow {
+  height: 18px;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+  width: 18px;
+}
+
+.btn-top:hover polyline {
+  stroke-width: 15;
+}
+
+.privacy-policy:hover {
+  text-decoration: underline;
+}
+
+.footer-copy,
+.privacy-policy {
+  font-size: 1rem;
+  font-weight: 100;
+}

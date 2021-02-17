@@ -1,0 +1,51 @@
+.news {
+  width: 100%;
+}
+
+.news-article {
+  margin: auto;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.news-article figure img {
+  width: 100%;
+}
+
+.news-article p {
+  font-size: 1.6rem;
+}
+
+.pub-info {
+  float: right;
+  margin: 0;
+  padding: 0 20px 20px;
+}
+
+.pub-info .pub-date,
+.pub-info .auth-name {
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.auth-name {
+  margin-left: 10px;
+}
+
+.wp-pagenavi {
+  text-align: center;
+}
+
+.wp-pagenavi .pages {
+    display: none;
+}
+
+.wp-pagenavi .page, .wp-pagenavi .current, .wp-pagenavi .nextpostslink, .wp-pagenavi .previouspostslink  {
+  background-color: rgb(239, 239, 239);
+  border: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 0 1px;
+  padding: 0 10px;
+  width: 10px;
+}
