@@ -20,7 +20,7 @@
 }
 
 .banner-text {
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgba(0, 0, 0, 0.3);
   font-family: 'Raleway';
   padding: 15px 20px;
   position: absolute;
@@ -49,6 +49,15 @@
 
 .home-content .news .section-header {
   padding: 0;
+}
+
+.wdi_follow_btn span {
+  font-size: 16px;
+  font-family: 'lobster';
+}
+
+.wdi_follow_btn:hover {
+  box-shadow: 1px 1px 3px lightgray;
 }
 
 /* iPhone X landscape */

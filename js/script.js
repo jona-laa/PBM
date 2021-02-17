@@ -5,6 +5,12 @@ const mainMenu = document.querySelector('#menu-main-menu');
 
 
 
+window.onload = () => {
+    hideToTopBtn();
+}
+
+
+
 // Hide menu and to top button on scroll
 window.onscroll = () => {
     hasScrolled();
@@ -105,5 +111,5 @@ const hideToTopBtn = () => {
     window.pageYOffset > window.screen.height ?
         elementToggle(toTopBtn, 'bottom', '20px')
         :
-        elementToggle(toTopBtn, 'bottom', '-50px')
+        elementToggle(toTopBtn, 'bottom', '-100px')
 }

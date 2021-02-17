@@ -17,6 +17,7 @@
     <div class="footer-copy-privacy">
         <?php echo '<a href="' . home_url() . '/privacy-policy" class="privacy-policy">' . 'Privacy Policy' . '</a>  |  '; ?>
         <span class="footer-copy">&copy; <?php bloginfo('name')?> 2020</span>
+        <div style="text-align: center;"><span class="footer-copy">created by <a href="https://github.com/jona-laa" class="footer-copy" target="_blank">jona.laa.dev</a></span></div>
     </div>
 </footer>
 <script src="//code.jquery.com/jquery-latest.js"></script>
